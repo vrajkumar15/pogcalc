@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <style name="Text"> </style>
+
+     <style name="Text.Strong">
+           <item name="@android:textSize">12sp</item>
+           <item name="@android:paddingLeft">3sp</item>
+           <item name="@android:paddingTop">2sp</item>
+           <item name="@android:textColor">#3BB9FF</item>
+           <item name="@android:textStyle">bold</item>
+     </style>
+     
+          <style name="Text.POGStrong">
+           <item name="@android:textSize">12sp</item>
+           <item name="@android:paddingLeft">1sp</item>
+           <item name="@android:paddingTop">2sp</item>
+           <item name="@android:textColor">#3BB9FF</item>
+           <item name="@android:textStyle">bold</item>
+     </style>
+
+     <style name="Text.Heading">
+           <item name="@android:textSize">9sp</item>
+           <item name="@android:paddingLeft">1sp</item>
+           <item name="@android:paddingTop">2sp</item>
+           <item name="@android:textColor">#3BB9FF</item>
+           <item name="@android:textStyle">bold</item>
+     </style>
+     
+     <style name="Text.Strong.Blurry">
+           <item name="@android:shadowColor">#3BB9FF</item>
+           <item name="@android:textSize">9sp</item>
+           <item name="@android:shadowDx">1</item>
+           <item name="@android:shadowDy">1</item>
+           <item name="@android:shadowRadius">10</item>
+     </style>
+     
+          <style name="Text.Light">
+           <item name="@android:textSize">10sp</item>
+           <item name="@android:paddingLeft">1dp</item>
+           <item name="@android:paddingBottom">1dp</item>
+           <item name="@android:textColor">#E6E6DC</item>
+           <item name="@android:textStyle">bold</item>
+     </style>
+     
+      <style name="Text.Btn">
+          <item name="@android:shadowColor">#3BB9FF</item>
+           <item name="@android:textSize">9sp</item>
+           <item name="@android:shadowDx">1</item>
+           <item name="@android:shadowDy">1</item>
+           <item name="@android:shadowRadius">5</item>
+     </style>
+      <color name="buttonfontcolor">#3BB9FF</color>
+          
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Open calendar</string>
+    <string name="app_name"> POG Calc </string>
+    <string name="action_info">Info</string>
+    <string name="action_settings">Info</string>
+
+    <color name="text_color">#31D1F1</color>
+    <color name="white">#ffffff</color>
+
+    <string name="open">Open</string>
+
+    <color name="fontcolor">#000000</color>
+
+    <string name="SelectLMP">Select the Last Menstrual Period (LMP) date:</string>
+    <string name="SelectEDD">Select the Estimated Delivery Date (EDD) date:</string>
+    <string name="SelectDate">Selected LMP Date:</string>
+    <string name="SelectEDDDate">Selected EDD Date:</string>
+    <string name="POG">Period of Gestation(POG)</string>
+    <string name="Conception">Conception</string>
+    <string name="EDD">EDD</string>
+    <string name="Empty">""</string>
+    <string name="LT">&lt;&lt;</string>
+    <string name="GT">&gt;&gt;</string>
+    <string name="InfoLMP">*LMP - Last Menstrual Period</string>
+    <string name="InfoPOG">*POG - Period of gestation</string>
+    <string name="InfoEDD">*EDD - Expected Delivery date</string>
+    <string name="InfoConc">*Conception - Date of Conception</string>
+    <string name="InfoDF">*Date Format - dd-mm-yyyy</string>
+    <string name="InfoCurr">*Date Marked in Blue is the current Date</string>
+    <string name="InfoApp">*POG Calc app calculates the Current gestational age from the date of LMP and EDD</string>
+    <string name="InfoDevs">*Contact Developers - Dr.Arun Babu T/Rajkumar appovator2014@gmail.com</string>
+    <string name="title_activity_reverse_pogcalc">ReversePOGCalc</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="revpogEdd">EDD based POG</string>
+    <string name="revpogUsg">USG based POG</string>
+
+    <string name="SelectUSG">Select the Ultra Sound(USG) date:</string>
+    <string name="SelectUSGDate">Selected USG Date:</string>
+    <string name="POGonUSG">Enter POG on Ultra Sound Date:</string>
+
+
+</resources>

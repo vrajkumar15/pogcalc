@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+          android:orientation="vertical"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent">
+          
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvmessage6"
+        android:textSize="13sp"
+        android:text="@string/InfoApp"
+        />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvmessage0"
+        android:textSize="13sp"
+        android:text="@string/InfoLMP"
+        />
+    
+
+
+<TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvmessage1"
+        android:textSize="13sp"
+        android:text="@string/InfoPOG"
+        />
+
+<TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+		android:textSize="13sp"
+        android:id="@+id/tvmessage2"
+        android:text="@string/InfoEDD"
+        />
+
+<TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvmessage3"
+        android:textSize="13sp"
+        android:text="@string/InfoConc"
+        />
+
+<TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvmessage4"
+        android:textSize="13sp"
+        android:text="@string/InfoDF"
+        />
+
+
+<TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvmessage7"
+        android:textSize="13sp"
+        android:text="@string/InfoDevs"
+        />
+
+
+</LinearLayout>
