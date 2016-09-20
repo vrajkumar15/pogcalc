@@ -65,8 +65,8 @@
       <file leaf-file-name="calendar.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/layout/calendar.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.207547">
-              <caret line="177" column="74" selection-start-line="177" selection-start-column="74" selection-end-line="177" selection-end-column="74" />
+            <state vertical-scroll-proportion="-3.8867924">
+              <caret line="168" column="40" selection-start-line="168" selection-start-column="17" selection-end-line="168" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -75,19 +75,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_revpog_usg.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="styles.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/values/styles.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="7.6862745">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_revpog_usg.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/res/layout/activity_revpog_usg.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.5">
-              <caret line="201" column="0" selection-start-line="201" selection-start-column="0" selection-end-line="201" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.6242171">
+              <caret line="203" column="21" selection-start-line="203" selection-start-column="21" selection-end-line="203" selection-end-column="21" />
               <folding>
                 <element signature="e#314#333#0" expanded="true" />
                 <element signature="e#1299#1311#0" expanded="true" />
                 <element signature="e#2529#2541#0" expanded="true" />
                 <element signature="e#3784#3807#0" expanded="true" />
                 <element signature="e#4623#4641#0" expanded="true" />
-                <element signature="e#7557#7570#0" expanded="true" />
-                <element signature="e#7970#7985#0" expanded="true" />
+                <element signature="e#7606#7619#0" expanded="true" />
+                <element signature="e#8019#8034#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -99,8 +109,31 @@
       <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.1960785">
-              <caret line="33" column="73" selection-start-line="33" selection-start-column="73" selection-end-line="33" selection-end-column="73" />
+            <state vertical-scroll-proportion="-4.4117646">
+              <caret line="32" column="158" selection-start-line="32" selection-start-column="158" selection-end-line="32" selection-end-column="158" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="info.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/info.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.1132076">
+              <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReversePOGCalc.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/DoctorCalc/pogcalc/ReversePOGCalc.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="193" column="22" selection-start-line="193" selection-start-column="22" selection-end-line="193" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -109,8 +142,8 @@
       <file leaf-file-name="ReversePOGCalcUsg.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/DoctorCalc/pogcalc/ReversePOGCalcUsg.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.481482">
-              <caret line="385" column="52" selection-start-line="385" selection-start-column="52" selection-end-line="385" selection-end-column="52" />
+            <state vertical-scroll-proportion="-12.481482">
+              <caret line="395" column="39" selection-start-line="395" selection-start-column="39" selection-end-line="395" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#3428#3884#0" expanded="true" />
@@ -124,11 +157,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CalendarView.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CalendarView.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/DoctorCalc/pogcalc/CalendarView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5018797">
-              <caret line="281" column="47" selection-start-line="281" selection-start-column="47" selection-end-line="281" selection-end-column="47" />
+            <state vertical-scroll-proportion="-11.555555">
+              <caret line="259" column="0" selection-start-line="244" selection-start-column="0" selection-end-line="259" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -396,8 +429,8 @@
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/res/layout/activity_revpog_usg.xml" />
         <option value="$PROJECT_DIR$/src/com/DoctorCalc/pogcalc/ReversePOGCalcUsg.java" />
+        <option value="$PROJECT_DIR$/res/layout/activity_revpog_usg.xml" />
       </list>
     </option>
   </component>
@@ -992,13 +1025,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/DoctorCalc/pogcalc/CalendarView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="295" column="41" selection-start-line="276" selection-start-column="0" selection-end-line="295" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/DoctorCalc/pogcalc/ReversePOGCalc.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1043,8 +1069,8 @@
             <element signature="e#2529#2541#0" expanded="true" />
             <element signature="e#3784#3807#0" expanded="true" />
             <element signature="e#4623#4641#0" expanded="true" />
-            <element signature="e#7557#7570#0" expanded="true" />
-            <element signature="e#7970#7985#0" expanded="true" />
+            <element signature="e#7606#7619#0" expanded="true" />
+            <element signature="e#8019#8034#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1108,8 +1134,8 @@
             <element signature="e#2529#2541#0" expanded="true" />
             <element signature="e#3784#3807#0" expanded="true" />
             <element signature="e#4623#4641#0" expanded="true" />
-            <element signature="e#7557#7570#0" expanded="true" />
-            <element signature="e#7970#7985#0" expanded="true" />
+            <element signature="e#7606#7619#0" expanded="true" />
+            <element signature="e#8019#8034#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1332,26 +1358,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/activity_reverse_pogcalc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5985401">
-          <caret line="127" column="47" selection-start-line="127" selection-start-column="39" selection-end-line="127" selection-end-column="47" />
-          <folding>
-            <element signature="e#3560#3573#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/DoctorCalc/pogcalc/ReversePOGCalc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.032327585">
-          <caret line="194" column="9" selection-start-line="194" selection-start-column="9" selection-end-line="194" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.19396552">
@@ -1366,61 +1372,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.1960785">
-          <caret line="33" column="73" selection-start-line="33" selection-start-column="73" selection-end-line="33" selection-end-column="73" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/activity_revpog_usg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.5">
-          <caret line="201" column="0" selection-start-line="201" selection-start-column="0" selection-end-line="201" selection-end-column="0" />
-          <folding>
-            <element signature="e#314#333#0" expanded="true" />
-            <element signature="e#1299#1311#0" expanded="true" />
-            <element signature="e#2529#2541#0" expanded="true" />
-            <element signature="e#3784#3807#0" expanded="true" />
-            <element signature="e#4623#4641#0" expanded="true" />
-            <element signature="e#7557#7570#0" expanded="true" />
-            <element signature="e#7970#7985#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/DoctorCalc/pogcalc/ReversePOGCalcUsg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.481482">
-          <caret line="385" column="52" selection-start-line="385" selection-start-column="52" selection-end-line="385" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3428#3884#0" expanded="true" />
-            <element signature="e#3883#3884#0" expanded="true" />
-            <element signature="e#3982#4439#0" expanded="true" />
-            <element signature="e#4438#4439#0" expanded="true" />
-            <element signature="e#4483#5187#0" expanded="true" />
-            <element signature="e#5186#5187#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/calendar_item.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/info.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1450,11 +1402,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/calendar.xml">
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_reverse_pogcalc.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.207547">
-          <caret line="177" column="74" selection-start-line="177" selection-start-column="74" selection-end-line="177" selection-end-column="74" />
-          <folding />
+        <state vertical-scroll-proportion="1.9920949">
+          <caret line="127" column="47" selection-start-line="127" selection-start-column="39" selection-end-line="127" selection-end-column="47" />
+          <folding>
+            <element signature="e#3560#3573#0" expanded="true" />
+          </folding>
         </state>
       </provider>
       <provider editor-type-id="android-designer">
@@ -1463,10 +1417,91 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/DoctorCalc/pogcalc/CalendarView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5018797">
-          <caret line="281" column="47" selection-start-line="281" selection-start-column="47" selection-end-line="281" selection-end-column="47" />
+        <state vertical-scroll-proportion="-11.555555">
+          <caret line="259" column="0" selection-start-line="244" selection-start-column="0" selection-end-line="259" selection-end-column="0" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/DoctorCalc/pogcalc/ReversePOGCalc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="193" column="22" selection-start-line="193" selection-start-column="22" selection-end-line="193" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/DoctorCalc/pogcalc/ReversePOGCalcUsg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.481482">
+          <caret line="395" column="39" selection-start-line="395" selection-start-column="39" selection-end-line="395" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3428#3884#0" expanded="true" />
+            <element signature="e#3883#3884#0" expanded="true" />
+            <element signature="e#3982#4439#0" expanded="true" />
+            <element signature="e#4438#4439#0" expanded="true" />
+            <element signature="e#4483#5187#0" expanded="true" />
+            <element signature="e#5186#5187#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="7.6862745">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/calendar.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.8867924">
+          <caret line="168" column="40" selection-start-line="168" selection-start-column="17" selection-end-line="168" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/info.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.1132076">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.4117646">
+          <caret line="32" column="158" selection-start-line="32" selection-start-column="158" selection-end-line="32" selection-end-column="158" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_revpog_usg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6242171">
+          <caret line="203" column="21" selection-start-line="203" selection-start-column="21" selection-end-line="203" selection-end-column="21" />
+          <folding>
+            <element signature="e#314#333#0" expanded="true" />
+            <element signature="e#1299#1311#0" expanded="true" />
+            <element signature="e#2529#2541#0" expanded="true" />
+            <element signature="e#3784#3807#0" expanded="true" />
+            <element signature="e#4623#4641#0" expanded="true" />
+            <element signature="e#7606#7619#0" expanded="true" />
+            <element signature="e#8019#8034#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
   </component>

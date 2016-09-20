@@ -27,20 +27,20 @@
     <string name="InfoPOG">*POG - Period of gestation</string>
     <string name="InfoEDD">*EDD - Expected Delivery date</string>
     <string name="InfoConc">*Conception - Date of Conception</string>
+    <string name="InfoUSG">*USG - Ultra Sonogram</string>
     <string name="InfoDF">*Date Format - dd-mm-yyyy</string>
     <string name="InfoCurr">*Date Marked in Blue is the current Date</string>
-    <string name="InfoApp">*POG Calc app calculates the Current gestational age from the date of LMP and EDD</string>
+    <string name="InfoApp">*POG Calc app calculates - the Current gestational age from the date of LMP and EDD, EDD based on POG and POG based on previous USG</string>
     <string name="InfoDevs">*Contact Developers - Dr.Arun Babu T/Rajkumar appovator2014@gmail.com</string>
     <string name="title_activity_reverse_pogcalc">ReversePOGCalc</string>
     <string name="hello_world">Hello world!</string>
     <string name="revpogEdd">EDD based POG</string>
-    <string name="revpogUsg">USG based POG</string>
+    <string name="revpogUsg">Prev USG based POG</string>
 
     <string name="SelectUSG">Select the Ultra Sound(USG) date:</string>
     <string name="SelectUSGDate">Selected USG Date:</string>
     <string name="POGonUSG">Enter POG on Ultra Sound Date:</string>
-    <string name="weekDef">0 Week</string>
-    <string name="dayDef">0 Day</string>
+
     <string-array name="weeks">
         <item>0 Week</item>
         <item>1 Week</item>

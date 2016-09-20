@@ -379,11 +379,29 @@ public class ReversePOGCalcUsg extends Activity {
             tvTopPOG.setVisibility(View.VISIBLE);
             tvPOG.setVisibility(View.VISIBLE);
             tvPOG.setText(pogWeek + " weeks " + pogDay + " days");
+            //String todayd = new Date();
+            int edd = 280 - (int)diffInDays;
+            //SimpleDateFormat sdf = new SimpleDateFormat("dd-MM-yyyy");
+            Calendar c = Calendar.getInstance();
+            c.setTime(today);
+
+            //c.set(Calendar.MONTH, (c.get(Calendar.MONTH)+9));
+            //c.add(Calendar.MONTH, 9);
+            c.add(Calendar.DATE, edd);
+            // c.add(Calendar.DATE, 280);  // number of days to add, can also use Calendar.DAY_OF_MONTH in place of Calendar.DATE
+            SimpleDateFormat sdf1 = new SimpleDateFormat("dd-MM-yyyy");
+            String output = sdf1.format(c.getTime());
+            // Toast.makeText(getApplicationContext(), output , Toast.LENGTH_SHORT).show();
+            btnSub.setVisibility(View.VISIBLE);
+            btnSub.setText("EDD: "+ output);
+
+
         }
         else {
             tvTopPOG.setVisibility(View.INVISIBLE);
             tvPOG.setVisibility(View.INVISIBLE);
             tvSelect.setText("Please enter a date + less than 10 months");
+
         }
 
 //        etWeeks.addTextChangedListener(new TextWatcher() {
