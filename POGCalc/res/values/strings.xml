@@ -39,6 +39,60 @@
     <string name="SelectUSG">Select the Ultra Sound(USG) date:</string>
     <string name="SelectUSGDate">Selected USG Date:</string>
     <string name="POGonUSG">Enter POG on Ultra Sound Date:</string>
+    <string name="weekDef">0 Week</string>
+    <string name="dayDef">0 Day</string>
+    <string-array name="weeks">
+        <item>0 Week</item>
+        <item>1 Week</item>
+        <item>2 Weeks</item>
+        <item>3 Weeks</item>
+        <item>4 Weeks</item>
+        <item>5 Weeks</item>
+        <item>6 Weeks</item>
+        <item>7 Weeks</item>
+        <item>8 Weeks</item>
+        <item>9 Weeks</item>
+        <item>10 Weeks</item>
+        <item>11 Weeks</item>
+        <item>12 Weeks</item>
+        <item>13 Weeks</item>
+        <item>14 Weeks</item>
+        <item>15 Week</item>
+        <item>16 Weeks</item>
+        <item>17 Weeks</item>
+        <item>18 Weeks</item>
+        <item>19 Weeks</item>
+        <item>20 Weeks</item>
+        <item>21 Weeks</item>
+        <item>22 Weeks</item>
+        <item>23 Weeks</item>
+        <item>24 Weeks</item>
+        <item>25 Weeks</item>
+        <item>26 Weeks</item>
+        <item>27 Weeks</item>
+        <item>28 Weeks</item>
+        <item>29 Weeks</item>
+        <item>30 Weeks</item>
+        <item>31 Weeks</item>
+        <item>32 Weeks</item>
+        <item>33 Weeks</item>
+        <item>34 Weeks</item>
+        <item>35 Weeks</item>
+        <item>36 Weeks</item>
+        <item>37 Weeks</item>
+        <item>38 Weeks</item>
+        <item>39 Weeks</item>
+        <item>40 Weeks</item>
+    </string-array>
+    <string-array name="days">
+        <item>0 Day</item>
+        <item>1 Day</item>
+        <item>2 Days</item>
+        <item>3 Days</item>
+        <item>4 Days</item>
+        <item>5 Days</item>
+        <item>6 Days</item>
+    </string-array>
 
 
 </resources>

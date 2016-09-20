@@ -138,31 +138,56 @@
                 android:visibility="invisible"
                 android:text="@string/POGonUSG" />
 
-            <EditText
-                android:layout_width="wrap_content"
+            <Spinner
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="number"
-                android:ems="10"
-                android:hint="Weeks"
-                android:id="@+id/etWeeks"
+                android:id="@+id/sWeeks"
                 android:layout_below="@+id/tvPOGonUSG"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true"
                 android:visibility="invisible"
+                android:gravity="center"
                 android:layout_toStartOf="@+id/btnSub"
-                android:layout_toLeftOf="@+id/btnSub" />
+                android:layout_toLeftOf="@+id/btnSub"
+                android:entries="@array/weeks"
+                />
 
-            <EditText
-                android:layout_width="wrap_content"
+            <Spinner
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="number"
-                android:ems="10"
-                android:hint="Days"
-                android:id="@+id/etDays"
-                android:layout_alignBottom="@+id/etWeeks"
+                android:id="@+id/sDays"
+                android:layout_alignBottom="@+id/sWeeks"
                 android:visibility="invisible"
                 android:layout_toEndOf="@+id/btnSub"
-                android:layout_toRightOf="@+id/btnSub" />
+                android:layout_toRightOf="@+id/btnSub"
+                android:entries="@array/days"
+                />
+
+            <!--<EditText-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:inputType="number"-->
+                <!--android:ems="10"-->
+                <!--android:hint="Weeks"-->
+                <!--android:id="@+id/etWeeks"-->
+                <!--android:layout_below="@+id/tvPOGonUSG"-->
+                <!--android:layout_alignParentLeft="true"-->
+                <!--android:layout_alignParentStart="true"-->
+                <!--android:visibility="invisible"-->
+                <!--android:layout_toStartOf="@+id/btnSub"-->
+                <!--android:layout_toLeftOf="@+id/btnSub" />-->
+
+
+
+            <!--<EditText-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:inputType="number"-->
+                <!--android:ems="10"-->
+                <!--android:hint="Days"-->
+                <!--android:id="@+id/etDays"-->
+                <!--android:layout_alignBottom="@+id/etWeeks"-->
+                <!--android:visibility="invisible"-->
+                <!--android:layout_toEndOf="@+id/btnSub"-->
+                <!--android:layout_toRightOf="@+id/btnSub" />-->
 
             <Button
                 style="?android:attr/buttonStyleSmall"
@@ -172,7 +197,7 @@
                 android:visibility="invisible"
                 android:id="@+id/btnSub"
                 android:onClick="onSubmit"
-                android:layout_below="@+id/etWeeks"
+                android:layout_below="@+id/sWeeks"
                 android:layout_centerHorizontal="true" />
 
             <TextView

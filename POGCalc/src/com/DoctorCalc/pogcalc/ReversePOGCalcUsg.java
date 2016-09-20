@@ -28,6 +28,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.FrameLayout;
 import android.widget.GridView;
+import android.widget.Spinner;
 import android.widget.TextView;
 
 public class ReversePOGCalcUsg extends Activity {
@@ -41,6 +42,8 @@ public class ReversePOGCalcUsg extends Activity {
     TextView tvSelect;
     EditText etWeeks;
     EditText etDays;
+    Spinner sWeeks;
+    Spinner sDays;
     TextView tvPOGonUSG;
     String dt = "00-00-0000";
     Button btnSub;
@@ -53,8 +56,42 @@ public class ReversePOGCalcUsg extends Activity {
         tvSelect = (TextView) findViewById(R.id.tvSelect);
         tvPOG = (TextView) findViewById(R.id.tvPOG);
         tvTopPOG = (TextView) findViewById(R.id.tvTopPOG);
-        etWeeks = (EditText) findViewById(R.id.etWeeks);
-        etDays = (EditText) findViewById(R.id.etDays);
+//        etWeeks = (EditText) findViewById(R.id.etWeeks);
+//        etDays = (EditText) findViewById(R.id.etDays);
+        sWeeks = (Spinner) findViewById(R.id.sWeeks);
+        sDays = (Spinner) findViewById(R.id.sDays);
+
+        sWeeks.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
+                printVal();
+
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+
+
+            }
+
+        });
+
+        sDays.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
+                printVal();
+
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+
+
+            }
+
+        });
+        
+//        etDays = (EditText) findViewById(R.id.etDays);
         tvPOGonUSG = (TextView) findViewById(R.id.tvPOGonUSG);
         btnSub = (Button) findViewById(R.id.btnSub);
 
@@ -124,22 +161,22 @@ public class ReversePOGCalcUsg extends Activity {
 
         });
 
-        etWeeks = (EditText) findViewById(R.id.etWeeks);
-        etWeeks.setOnClickListener(new OnClickListener() {
-
-            @Override
-            public void onClick(View v) {
-                etWeeks.setText("");
-            }
-        });
-        etDays = (EditText) findViewById(R.id.etDays);
-        etDays.setOnClickListener(new OnClickListener() {
-
-            @Override
-            public void onClick(View v) {
-                etDays.setText("");
-            }
-        });
+//        etWeeks = (EditText) findViewById(R.id.etWeeks);
+//        etWeeks.setOnClickListener(new OnClickListener() {
+//
+//            @Override
+//            public void onClick(View v) {
+//                etWeeks.setText("");
+//            }
+//        });
+//        etDays = (EditText) findViewById(R.id.etDays);
+//        etDays.setOnClickListener(new OnClickListener() {
+//
+//            @Override
+//            public void onClick(View v) {
+//                etDays.setText("");
+//            }
+//        });
 
 //        etWeeks = (EditText) findViewById(R.id.etWeeks);
 //        etDays = (EditText) findViewById(R.id.etDays);
@@ -253,37 +290,51 @@ public class ReversePOGCalcUsg extends Activity {
         } else {
             tvSelect.setVisibility(View.VISIBLE);
             tvSelect.setText("Selected Ultra Sound Date : "+ dateEntered);
-            etWeeks.setVisibility(View.VISIBLE);
-            etDays.setVisibility(View.VISIBLE);
+            //etWeeks.setVisibility(View.VISIBLE);
+            //etDays.setVisibility(View.VISIBLE);
+            sWeeks.setVisibility(View.VISIBLE);
+            sDays.setVisibility(View.VISIBLE);
             tvPOGonUSG.setVisibility(View.VISIBLE);
-            btnSub.setVisibility(View.VISIBLE);
+            //btnSub.setVisibility(View.VISIBLE);
            // calcPOGUsg(dateEntered);
         }
 
     }
 
-
-
     public void onSubmit(View v){
 
+    }
+
+    public void printVal(){
 
 
-        etWeeks = (EditText) findViewById(R.id.etWeeks);
+
+        //etWeeks = (EditText) findViewById(R.id.etWeeks);
+        sWeeks = (Spinner) findViewById(R.id.sWeeks);
         String weekstest = "0";
-        weekstest = etWeeks.getText().toString();
+        if (sWeeks != null && sWeeks.getSelectedItem() !=null) {
+            weekstest = sWeeks.getSelectedItem().toString().split(" ")[0];
+        }
+//        String weekstest = "0";
+//        weekstest = etWeeks.getText().toString();
         if(TextUtils.isEmpty(weekstest)) {
             //etWeeks.setError("cannot be empty");
             weekstest = "0";
             //return;
         }
         int weeksUSG = Integer.parseInt(weekstest);
-        if(weeksUSG > 40 ) {
-            etWeeks.setError("should be < 40");
-        }
+//        if(weeksUSG > 40 ) {
+//            sWeeks.setError("should be < 40");
+//        }
 
-        etDays = (EditText) findViewById(R.id.etDays);
+        //etDays = (EditText) findViewById(R.id.etDays);
+        sDays = (Spinner) findViewById(R.id.sDays);
         String daystest = "0";
-        daystest = etDays.getText().toString();
+        if (sDays != null && sDays.getSelectedItem() !=null) {
+            daystest = sDays.getSelectedItem().toString().split(" ")[0];
+        }
+//        String daystest = "0";
+//        daystest = etDays.getText().toString();
         if(TextUtils.isEmpty(daystest)) {
             //etDays.setError("cannot be empty");
             daystest = "0";
@@ -291,9 +342,9 @@ public class ReversePOGCalcUsg extends Activity {
         }
 
         int daysUSG = Integer.parseInt(daystest);
-        if(daysUSG > 6 ) {
-            etDays.setError("should be < 7");
-        }
+//        if(daysUSG > 6 ) {
+//            sDays.setError("should be < 7");
+//        }
 
 
 
@@ -323,9 +374,17 @@ public class ReversePOGCalcUsg extends Activity {
             pogWeek += 1;
             pogDay -= 7;
         }
-        tvTopPOG.setVisibility(View.VISIBLE);
-        tvPOG.setVisibility(View.VISIBLE);
-        tvPOG.setText(pogWeek + " weeks " + pogDay + " days");
+
+        if(pogWeek < 45) {
+            tvTopPOG.setVisibility(View.VISIBLE);
+            tvPOG.setVisibility(View.VISIBLE);
+            tvPOG.setText(pogWeek + " weeks " + pogDay + " days");
+        }
+        else {
+            tvTopPOG.setVisibility(View.INVISIBLE);
+            tvPOG.setVisibility(View.INVISIBLE);
+            tvSelect.setText("Please enter a date + less than 10 months");
+        }
 
 //        etWeeks.addTextChangedListener(new TextWatcher() {
 //
